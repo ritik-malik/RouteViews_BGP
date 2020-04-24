@@ -1,11 +1,13 @@
 # RouteViews_BGP
 A bot to download BGP data from route views, &amp; filter according to the required AS (optional)
 
-## Imput syntax
+## Syntax
+python data.py  </br>
+Input syntax -> "B IX YYYYMMDD.time AS" </br></br>
 B = 1 for headless broswer, else 0 </br>
 AS = 0, if no filtering required  </br>
 IX = internet exchange from the list </br>
-Syntax -> "B IX YYYYMMDD.time AS" 
+ 
 
 ## Steps done by bot
 1. Go to http://archive.routeviews.org/  (GUI/headless)
